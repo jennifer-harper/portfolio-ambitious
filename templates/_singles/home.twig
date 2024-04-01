@@ -1,0 +1,25 @@
+{% extends "_layout.twig" %} 
+{% set bodyAttributes ={ class: "home" } %} 
+{% set docTitle = entry.title %} 
+{# {% set metaDesc = entry.metaDescription %}  #}
+{% set page = craft.entries().section('home').all() %} 
+
+
+{% block head %} 
+  {{ parent() }}
+{% endblock %}
+
+{% block content %} 
+  {% for entry in page %} 
+  <h1>h1 Header</h1>
+  <h2>H2 Header</h2>
+  <h3>H3 Header</h3>
+
+  <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Tenetur doloremque eligendi excepturi a blanditiis labore repellat commodi voluptates quidem, ipsa animi voluptatibus obcaecati distinctio possimus numquam molestiae, nihil est quisquam?</p>
+
+  {% endfor %} 
+{% endblock %}
+
+{% block scripts %}
+{{ parent() }}
+{% endblock %}

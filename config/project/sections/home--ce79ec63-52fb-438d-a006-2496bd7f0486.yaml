@@ -1,0 +1,27 @@
+defaultPlacement: end
+enableVersioning: true
+entryTypes:
+  - cced4c77-7274-4a25-96b9-db1024a04519 # home
+handle: home
+maxAuthors: 1
+name: Home
+previewTargets:
+  -
+    __assoc__:
+      -
+        - label
+        - 'Primary entry page'
+      -
+        - urlFormat
+        - '{url}'
+      -
+        - refresh
+        - '1'
+propagationMethod: all
+siteSettings:
+  b9e2565c-67d7-4897-a087-f83a8d7f4a7a: # Ambitious Aotearo Portfolio
+    enabledByDefault: true
+    hasUrls: true
+    template: _singles/home.twig
+    uriFormat: __home__
+type: single

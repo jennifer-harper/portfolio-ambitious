@@ -1,0 +1,8 @@
+baseUrl: $PRIMARY_SITE_URL
+handle: default
+hasUrls: true
+language: en-US
+name: 'Ambitious Aotearo Portfolio'
+primary: true
+siteGroup: c28e6de7-836b-46e2-9f92-9f612ce6dd14 # Ambitious Aotearo Portfolio
+sortOrder: 1
