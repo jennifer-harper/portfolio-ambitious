@@ -238,7 +238,7 @@ svg {
 }
 
 .pad-all {
-  padding: 1em;
+  padding: 5vw;
 }
 .pad-all.lg {
   padding: 8vw;
@@ -247,7 +247,7 @@ svg {
   padding: 2.3076923077vw;
 }
 .pad-all.for-sm {
-  padding: calc(1em - 2.3076923077vw);
+  padding: 2.6923076923vw;
 }
 .pad-all.no-top {
   padding-top: 0;
@@ -267,8 +267,8 @@ svg {
 }
 
 .pad-sides {
-  padding-left: 1em;
-  padding-right: 1em;
+  padding-left: pad;
+  padding-right: pad;
 }
 .pad-sides.sides-sm {
   padding-right: 2.3076923077vw;
@@ -286,8 +286,8 @@ svg {
 }
 
 .pad-top-btm {
-  padding-top: 1em;
-  padding-bottom: 1em;
+  padding-top: 5vw;
+  padding-bottom: 5vw;
 }
 .pad-top-btm.no-top {
   padding-top: 0;

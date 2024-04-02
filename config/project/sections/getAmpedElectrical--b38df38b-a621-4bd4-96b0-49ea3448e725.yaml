@@ -1,0 +1,27 @@
+defaultPlacement: end
+enableVersioning: true
+entryTypes:
+  - 7dcc1918-650c-4342-a378-9ec2e35af862 # Get Amped
+handle: getAmpedElectrical
+maxAuthors: 1
+name: 'Get Amped Electrical'
+previewTargets:
+  -
+    __assoc__:
+      -
+        - label
+        - 'Primary entry page'
+      -
+        - urlFormat
+        - '{url}'
+      -
+        - refresh
+        - '1'
+propagationMethod: all
+siteSettings:
+  b9e2565c-67d7-4897-a087-f83a8d7f4a7a: # Ambitious Aotearo Portfolio
+    enabledByDefault: true
+    hasUrls: true
+    template: _singles/get-amped.twig
+    uriFormat: get-amped-electrical
+type: single

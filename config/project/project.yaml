@@ -1,4 +1,4 @@
-dateModified: 1711930503
+dateModified: 1712043785
 email:
   fromEmail: jennnnifer.harper@gmail.com
   fromName: 'Ambitious Aotearo Portfolio'
@@ -13,11 +13,23 @@ fs:
     url: '@web/uploads/images'
 meta:
   __names__:
+    5bddcc21-af6e-4eab-b9de-2a64bcf03e5f: Standard # Standard
     6d26aa44-497f-4a38-9152-64c7ba690c53: Images # Images
+    7bc23fae-4faf-429b-abc8-070756505860: 'Content Block' # Content Block
+    7d25d224-1b98-4bb0-98a7-78acaaeb56c6: Simple # Simple
+    7dcc1918-650c-4342-a378-9ec2e35af862: 'Get Amped' # Get Amped
+    08c3bb98-4bb4-46c8-9770-01e7357473a8: Code # Code
+    9a2ffad5-9e3c-4793-81c1-c509dba8de93: 'code group' # code group
     b9e2565c-67d7-4897-a087-f83a8d7f4a7a: 'Ambitious Aotearo Portfolio' # Ambitious Aotearo Portfolio
+    b38df38b-a621-4bd4-96b0-49ea3448e725: 'Get Amped Electrical' # Get Amped Electrical
     c28e6de7-836b-46e2-9f92-9f612ce6dd14: 'Ambitious Aotearo Portfolio' # Ambitious Aotearo Portfolio
     cced4c77-7274-4a25-96b9-db1024a04519: home # home
     ce79ec63-52fb-438d-a006-2496bd7f0486: Home # Home
+plugins:
+  ckeditor:
+    edition: standard
+    enabled: true
+    schemaVersion: 3.0.0.0
 system:
   edition: solo
   live: true
